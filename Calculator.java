@@ -10,8 +10,8 @@ public class Calculator {
         int y = 5;
         Operation operation = Operation.ADDITION;
 
-	    int result = calculate(x, y, operation);
-	    System.out.println("Result: "+result);
+	int result = calculate(x, y, operation);
+	System.out.println("Result: "+result);
 
     }
 
